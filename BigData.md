@@ -1,0 +1,21 @@
+- 数据接入：
+  - 流式传输：flume
+  - 批量传输：DataX,sqoop(现在已经不维护)
+  - 关系型数据库：Maxwell Daemon、Canal、Tungsten
+  - 消息队列：kafka,pulsar
+- 存储
+  - 大文件存储：hdfs
+  - kv存储：hbase
+  - 时间序列：OpenTSDB(HBase)、InfluxDB、Beringei
+  - 非结构化：mongo
+  - 结构化：Phoenix
+  - 表格式：iceberg ，hudi
+  - 文件检索：ES
+  - 数据压缩协议：LZO、LZ4、GZIP、BZip2、Snappy、ZIP
+  - 数据存储协议：Text、Sequence、Parquet、CarbonData、ORC、Rcfile
+- 计算
+  - 离线计算 ：MR，hive，spark，presto，tez
+  - ad-hoc：Spark SQL， Presto， impala
+  - 实时计算：flink，spark streaming
+  - olap：Kylin，Presto，druid，Hermes
+  - 图计算：EasyGraph(公司自研)，Giraph，GraphLab，GraphX，Gemini
